@@ -1,10 +1,10 @@
 # Acuerdos de Equipo EcoRutas
 
 ## Roles
-- Scrum Master: ...
-- Dev Lead: ...
-- QA: ...
-- Devs: ...
+- Scrum Master: Janer Mena
+- Dev Lead: Jhon Gomez
+- QA: Lopez Hinojosa
+- Devs: Janer Mena, Lopez Hinojosa, Jhon Gomez
 
 ## Comunicación
 - Canal: Meet
