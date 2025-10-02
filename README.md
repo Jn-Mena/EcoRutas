@@ -17,3 +17,8 @@ Construir un MVP que permita:
 - [GitHub Actions](https://docs.github.com/actions) (CI/CD)
 - [Vercel](https://vercel.com/) (deploy staging/producción)
 
+## Roles
+- Scrum Master: Janer Mena
+- Dev Lead: Jhon Gomez
+- QA: Lopez Hinojosa
+- Devs: Janer Mena, Lopez Hinojosa, Jhon Gomez
