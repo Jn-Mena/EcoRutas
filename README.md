@@ -1,5 +1,3 @@
-Jhon estuvo aquí
-Janer Estuvo aquí
 
 # EcoRutas
 
