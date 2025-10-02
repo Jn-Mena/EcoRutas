@@ -1,0 +1,22 @@
+git init
+git remote add origin https://github.com/Devlop1327/Recicla_Tura
+git add .
+git commit -m "Primer commit desde local"
+git branch -M main
+git push -u origin main
+
+
+
+🔄 Luego para trabajar normalmente
+
+Cuando hayas hecho cambios:
+
+git add .
+git commit -m "Mensaje describiendo los cambios"
+git push
+
+
+Para traer cambios que alguien hizo en el remoto:
+
+git pull origin main
+

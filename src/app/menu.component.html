@@ -1,0 +1,23 @@
+<nav class="menu">
+  <ul>
+    @for (item of menuItems; track item.label) {
+      <li>
+        <a [routerLink]="item.route">{{ item.label }}</a>
+      </li>
+    }
+  </ul>
+
+  <div class="user-menu">
+    <img [src]="user.avatar" alt="avatar" class="avatar" (click)="toggleDropdown()" />
+    <span (click)="toggleDropdown()" style="cursor:pointer;">{{ user.name }}</span>
+    @if (showDropdown) {
+      <div class="dropdown">
+        <ul>
+          <li><a [routerLink]="'/perfil'" (click)="toggleDropdown()">Perfil</a></li>
+          <li><a [routerLink]="'/configuracion'" (click)="toggleDropdown()">Configuración</a></li>
+          <li><button (click)="logout()">Cerrar sesión</button></li>
+        </ul>
+      </div>
+    }
+  </div>
+</nav>
