@@ -18,4 +18,4 @@
 ## Convenciones de commits
 - feat: nueva funcionalidad
 - fix: corrección de bug
-- chore: tareas menores
+
